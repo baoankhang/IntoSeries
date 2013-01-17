@@ -17,9 +17,6 @@
     NSNetServiceBrowser *browser = [[NSNetServiceBrowser alloc] init];
     
     [browser setDelegate:BonjourServicesDelegate];
-    [browser searchForServicesOfType:@"_music._tcp" inDomain:@""];
-    
-    //NSMutableArray *list = BonjourServicesDelegate.services;
-    
+    [browser searchForServicesOfType:@"" inDomain:@""];
 }
 @end

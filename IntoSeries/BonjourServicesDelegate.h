@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BonjourServicesDelegate : NSObject
+@interface BonjourServicesDelegate : NSObject <NSNetServiceBrowserDelegate>
 {
     // Keeps track of available services
     NSMutableArray *services;
