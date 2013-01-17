@@ -15,6 +15,7 @@
 		826D6CFD16A6EB7A00B79219 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 826D6CFB16A6EB7A00B79219 /* MainMenu.xib */; };
 		826D6D0016A6EB7A00B79219 /* IntoSeries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 826D6CFE16A6EB7A00B79219 /* IntoSeries.xcdatamodeld */; };
 		826D6D0816A6EBFF00B79219 /* BonjourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 826D6D0716A6EBFF00B79219 /* BonjourController.m */; };
+		82BD3A6A16A7057D003AA312 /* BonjourServicesDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BD3A6916A7057D003AA312 /* BonjourServicesDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		826D6CFF16A6EB7A00B79219 /* IntoSeries.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IntoSeries.xcdatamodel; sourceTree = "<group>"; };
 		826D6D0616A6EBFF00B79219 /* BonjourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourController.h; sourceTree = "<group>"; };
 		826D6D0716A6EBFF00B79219 /* BonjourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourController.m; sourceTree = "<group>"; };
+		82BD3A6816A7057D003AA312 /* BonjourServicesDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourServicesDelegate.h; sourceTree = "<group>"; };
+		82BD3A6916A7057D003AA312 /* BonjourServicesDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourServicesDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				826D6CED16A6EB7900B79219 /* Supporting Files */,
 				826D6D0616A6EBFF00B79219 /* BonjourController.h */,
 				826D6D0716A6EBFF00B79219 /* BonjourController.m */,
+				82BD3A6816A7057D003AA312 /* BonjourServicesDelegate.h */,
+				82BD3A6916A7057D003AA312 /* BonjourServicesDelegate.m */,
 			);
 			path = IntoSeries;
 			sourceTree = "<group>";
@@ -179,6 +184,7 @@
 				826D6CFA16A6EB7900B79219 /* IntoSeriesAppDelegate.m in Sources */,
 				826D6D0016A6EB7A00B79219 /* IntoSeries.xcdatamodeld in Sources */,
 				826D6D0816A6EBFF00B79219 /* BonjourController.m in Sources */,
+				82BD3A6A16A7057D003AA312 /* BonjourServicesDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +314,7 @@
 				826D6D0516A6EB7A00B79219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
