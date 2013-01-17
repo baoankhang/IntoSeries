@@ -12,8 +12,14 @@
 
 - (IBAction)startScan:(NSButton *)sender {
     
-    NSString *result = @"Test";
+    id BonjourServicesDelegate;
+    BonjourServicesDelegate = [[BonjourServicesDelegate alloc] init];
+    NSNetServiceBrowser *browser = [[NSNetServiceBrowser alloc] init];
     
-    [_scanResults setStringValue: result];
+    [browser setDelegate:BonjourServicesDelegate];
+    [browser searchForServicesOfType:@"_music._tcp" inDomain:@""];
+    
+    //NSMutableArray *list = BonjourServicesDelegate.services;
+    
 }
 @end
